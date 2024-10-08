@@ -11,6 +11,9 @@ import java.sql.SQLException;
 public class Util {
     private static final SessionFactory sessionFactory = buildSessionFactory();
 
+    public Util() {
+    }
+
     private static SessionFactory buildSessionFactory() {
         try {
             Configuration configuration = new Configuration();

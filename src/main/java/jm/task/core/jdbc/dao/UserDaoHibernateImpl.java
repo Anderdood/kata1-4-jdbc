@@ -8,6 +8,8 @@ import jm.task.core.jdbc.util.Util;
 import org.hibernate.Session;
 
 public class UserDaoHibernateImpl implements UserDao {
+    public UserDaoHibernateImpl() {
+    }
 
     @Override
     public void createUsersTable() {
