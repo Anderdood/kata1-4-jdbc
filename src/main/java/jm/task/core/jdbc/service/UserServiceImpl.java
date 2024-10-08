@@ -13,10 +13,6 @@ public class UserServiceImpl implements UserService {
         this.userDao = userDao;
     }
 
-    public UserServiceImpl() {
-        userDao = new UserDaoHibernateImpl();
-    }
-
     @Override
 
     public void createUsersTable() {
